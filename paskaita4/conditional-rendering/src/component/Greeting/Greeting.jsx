@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from '../Button/Button';
+import Button from './Button/Button';
 
 export default function Greeting(props) {
   const [loggedIn, setLoggedIn] = useState(false);
