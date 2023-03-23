@@ -6,11 +6,11 @@ export function signIn(req, res) {
   });
 }
 
-export function signUp(req, res) {
+export async function signUp(req, res) {
   try {
     const { email, password, firstName, lastName, dateOfBirth } = req.body;
 
-    const user = User.create({
+    const user = await User.create({
       email,
       password,
       firstName,
@@ -18,9 +18,16 @@ export function signUp(req, res) {
       dateOfBirth,
     });
 
-    const { __v, ...rest } = user;
+    const resp = {
+      email: user.email,
+      password: user.password,
+      firstName: user.firstName,
+      lastName: user.lastName,
+      dateOfBirth: user.dateOfBirth,
+      id: user.id,
+    };
 
-    res.json(rest);
+    res.json(resp);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
