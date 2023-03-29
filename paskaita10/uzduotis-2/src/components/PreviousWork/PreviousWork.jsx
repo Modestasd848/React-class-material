@@ -1,0 +1,49 @@
+import React from 'react';
+import styles from './PreviuosWork.module.css';
+
+export default function PreviousWork() {
+  return (
+    <div className={styles.grid}>
+      <img
+        className={styles.image}
+        src="https://images.pexels.com/photos/6041001/pexels-photo-6041001.jpeg?cs=srgb&dl=pexels-low-is-6041001.jpg&fm=jpg"
+        alt="mercedez"
+      />
+      <img
+        className={styles.image}
+        src="https://images.pexels.com/photos/6041001/pexels-photo-6041001.jpeg?cs=srgb&dl=pexels-low-is-6041001.jpg&fm=jpg"
+        alt="mercedez"
+      />
+      <img
+        className={styles.image}
+        src="https://i.pinimg.com/736x/d3/63/36/d36336ba3fd17797ec3ff1df17a6a254.jpg"
+        alt="mercedez"
+      />
+      <img
+        className={styles.image}
+        src="data:image/jpeg;base64,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"
+        alt="mercedez"
+      />
+      <img
+        className={styles.image}
+        src="https://i.pinimg.com/originals/7d/3a/2d/7d3a2db1a5c5564dee8c5b74108a304e.jpg"
+        alt="mercedez"
+      />
+      <img
+        className={styles.image}
+        src="https://images.hdqwalls.com/wallpapers/black-mercedes-benz-amg-gt-4k-2020-m1.jpg"
+        alt="mercedez"
+      />
+      <img
+        className={styles.image}
+        src="https://images.pexels.com/photos/6041001/pexels-photo-6041001.jpeg?cs=srgb&dl=pexels-low-is-6041001.jpg&fm=jpg"
+        alt="mercedez"
+      />
+      <img
+        className={styles.image}
+        src="https://thumbs.dreamstime.com/z/black-mercedes-benz-e-class-car-w-russia-makhachkala-april-180420984.jpg"
+        alt="mercedez"
+      />
+    </div>
+  );
+}

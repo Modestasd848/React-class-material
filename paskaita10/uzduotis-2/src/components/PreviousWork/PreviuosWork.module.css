@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.image {
+  width: 150px;
+  padding: 30px;
+}
