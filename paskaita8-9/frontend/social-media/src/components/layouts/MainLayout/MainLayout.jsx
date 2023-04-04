@@ -18,7 +18,6 @@ export default function MainLayout() {
   return (
     <div>
       <MainHeader />
-      <NewPost />
       <NewPost setPosts={setPosts} />
       <PostList posts={posts} setPosts={setPosts} />
     </div>
