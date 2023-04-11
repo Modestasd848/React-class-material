@@ -1,0 +1,7 @@
+.order-list div {
+  display: flex;
+}
+
+.order-list div li:hover {
+  cursor: pointer;
+}
