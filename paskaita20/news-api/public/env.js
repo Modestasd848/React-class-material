@@ -2,7 +2,7 @@ window.env = {
   "TERM_PROGRAM": "vscode",
   "NODE": "/usr/local/bin/node",
   "INIT_CWD": "/Users/modestas/Documents/front-end/React-class-material/paskaita20/news-api",
-  "_P9K_TTY": "/dev/ttys001",
+  "_P9K_TTY": "/dev/ttys000",
   "TERM": "xterm-256color",
   "SHELL": "/bin/zsh",
   "npm_config_metrics_registry": "https://registry.npmjs.org/",
@@ -57,9 +57,9 @@ window.env = {
   "npm_config_user_agent": "npm/9.3.1 node/v18.14.0 darwin arm64 workspaces/false",
   "VSCODE_GIT_ASKPASS_NODE": "/private/var/folders/pq/dx_slt8j68z9_g8h8jj4j3280000gn/T/AppTranslocation/54586489-A79D-4306-8E50-FE62A17338EE/d/Visual Studio Code 2.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)",
   "GIT_ASKPASS": "/private/var/folders/pq/dx_slt8j68z9_g8h8jj4j3280000gn/T/AppTranslocation/54586489-A79D-4306-8E50-FE62A17338EE/d/Visual Studio Code 2.app/Contents/Resources/app/extensions/git/dist/askpass.sh",
-  "_P9K_SSH_TTY": "/dev/ttys001",
+  "_P9K_SSH_TTY": "/dev/ttys000",
   "npm_node_execpath": "/usr/local/bin/node",
   "npm_config_prefix": "/usr/local",
   "COLORTERM": "truecolor",
-  "API_KEY": "95b2bff1aca04759a332320ceec7bedd"
+  "API_KEY": "560584a89699465db3f30c077d607382"
 };
